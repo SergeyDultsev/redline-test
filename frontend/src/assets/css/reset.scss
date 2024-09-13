@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input, textarea, button{
+  outline: none;
+  border: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--color-text);
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}

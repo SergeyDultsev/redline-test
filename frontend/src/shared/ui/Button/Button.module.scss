@@ -1,0 +1,15 @@
+.btn{
+  &__default{
+    color: var(--color-main);
+    font-size: 14px;
+    padding: 10px 7px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-main);
+  }
+
+  &__default:hover{
+    color: #ffffff;
+    background-color: var(--color-main);
+    transition: all .3s;
+  }
+}
